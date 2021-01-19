@@ -1,0 +1,40 @@
+.account-card {
+  font-size: 14px;
+  margin:20px;
+  padding: 20px;
+  position: relative;
+
+  &--menu {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+
+    &:focus {
+      outline: none;
+    }
+
+    & span {
+      font-size: 16px;
+    }
+  }
+
+  &--right,
+  &--left {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  &--right span,
+  &--left span {
+    padding: 10px;
+  }
+
+  &--left .money {
+    font-weight: bold;
+    font-size: 22px;
+  }
+}
