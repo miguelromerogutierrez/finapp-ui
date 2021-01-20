@@ -6,3 +6,9 @@ export interface AccountResponse {
   bankName: string,
   type: string
 }
+
+export interface UserResponse {
+  id: number,
+  email: string,
+  username: string,
+}
